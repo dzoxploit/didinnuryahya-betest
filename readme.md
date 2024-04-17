@@ -1,6 +1,6 @@
-# Noderest
+# ms-didinnuryahya-betest
 
-A boilerplate node js project use Node js express js Mysql and Sequilize Orm.
+Backend developer test Node js express js Mysql and Sequilize Orm.
 
 ## Table of Contents
 
@@ -40,7 +40,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/dzoxploit/noderest.git
+   git clone https://github.com/dzoxploit/didinnuryahya_betest.git
    cd your-project
    ```
 
@@ -78,21 +78,21 @@ configure config database in folder config/config.json with your settings databa
     "development": {
     "username": "root",
     "password": null,
-    "database": "noderest",
+    "database": "db_didinnuryahya_betest",
     "host": "127.0.0.1",
     "dialect": "mysql"
     },
     "test": {
     "username": "root",
     "password": null,
-    "database": "noderest",
+    "database": "db_didinnuryahya_betest",
     "host": "127.0.0.1",
     "dialect": "mysql"
     },
     "production": {
     "username": "root",
     "password": null,
-    "database": "noderest",
+    "database": "db_didinnuryahya_betest",
     "host": "127.0.0.1",
     "dialect": "mysql"
     }
@@ -127,7 +127,7 @@ If you want to contribute to the project, please follow the guidelines outlined 
 
 ## License
 
-This project is licensed under the [Your License Name] License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgements
 

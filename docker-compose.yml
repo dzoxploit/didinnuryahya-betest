@@ -2,7 +2,7 @@ version: "3"
 services:
   web:
     image: node:16 # Use an appropriate Node.js version
-    container_name: noderest_app
+    container_name: ms_didinnuryahya_betest
     restart: always
     working_dir: /usr/src/app
     command: bash -c "npm install && npm start"
@@ -15,11 +15,11 @@ services:
 
   db:
     image: mysql:5.7
-    container_name: noderest_db
+    container_name: db_didinnuryahya_betest
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: your_root_password
-      MYSQL_DATABASE: noderest
+      MYSQL_DATABASE: db_didinnuryahya_betest
       MYSQL_USER: your_db_user
       MYSQL_PASSWORD: your_db_password
     ports:
